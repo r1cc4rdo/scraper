@@ -1,31 +1,60 @@
 from datetime import date, timedelta
+from collections import defaultdict
+from multiprocessing import Pool
 
 from bs4 import BeautifulSoup
 import requests
 
+# [TODO] html/markdown output, write with dates
+# [TODO] refresh with lambda
 
-def PG_scrape(starting_date, days):
 
-    def calendar_urls(start_date, days):
-        for after in range(days):
-            calendar_date = start_date + timedelta(days=after)
-            yield f'https://planetgranite.com/sv/calendar/{calendar_date.strftime("%Y-%m-%d")}/'
+def download(url):
+    page = requests.get(url)
+    print('=', end='')
+    return page
 
-    for calendar_url in calendar_urls(starting_date, days):
-        page = requests.get(calendar_url)
+
+def calendar_urls(start_date, days):
+    print(''.join('_' if num % 10 else str(num // 10) for num in range(1, days + 1)))
+    print(''.join(str(num % 10) for num in range(1, days + 1)))
+    for after in range(days):
+        calendar_date = start_date + timedelta(days=after)
+        yield f'https://planetgranite.com/sv/calendar/{calendar_date.strftime("%Y-%m-%d")}/'
+
+
+def planet_granite_scrape(starting_date, days):
+
+    pages = Pool(16).map(download, calendar_urls(starting_date, days))
+    events = defaultdict(list)
+    for page in pages:
+
         page_parser = BeautifulSoup(page.content, 'html.parser')
         for event in page_parser.select('.type-tribe_events'):
 
             desc = event.select_one('.tribe-events-list-event-title a').string
-            start = event.select_one('.time-details .tribe-event-date-start').string
-            end = event.select_one('.time-details .tribe-event-time').string if '@' in start else 'ALL DAY'
+            if 'cancelled' in desc.lower():
+                continue
+
+            start = event.select_one('.tribe-event-date-start').string
+            end = event.select_one('.tribe-event-time').string if '@' in start else 'ALL DAY'
             desc, start, end = map(lambda s: s.strip(), (desc, start, end))
-            print(f'{desc:55s} [{start} -- {end}]')
+            categories = [attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])]
+            link = event.select_one('.event-is-recurring a')  # [TODO] lift link from summary
+            title, *spec = (s.strip() for s in desc.split('–'))
+            specs = '-'.join(spec)
 
-            # event_type = list(s.split('-')[-1] for s in filter(lambda s: 'category' in s, event.attrs['class']))[0]
+            print(f'{desc:55s} [{start:24} -- {end:8}]')
+            events[title.lower()].append((title, categories, start, end, specs, link))
 
+        print()
+
+    for desc in sorted(events):
+        print(f'{events[desc][0][0]}')  # original title
+        for title, categories, start, end, specs, link in events[desc]:
+            print(f'\t {" " if link else "*"} {start:24} -- {end:8}   \t{specs}   \t[{" ".join(categories)}]   \t{link}')
         print()
 
 
 if __name__ == '__main__':
-    PG_scrape(date.today(), days=30)
+    planet_granite_scrape(date.today(), days=30)
