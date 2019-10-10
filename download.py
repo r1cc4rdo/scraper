@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # [TODO] html/markdown output, write with dates
-# [TODO] refresh with lambda
+# [TODO] refresh with lambda (1 mo every 15 days) https://github.com/mixu/markdown-styles-lambda https://github.com/mixu/ghost-render https://github.com/mixu/markdown-styles
 
 
 def download(url):
