@@ -1,3 +1,4 @@
+import time
 from datetime import date, timedelta
 from collections import defaultdict
 from multiprocessing import Pool
@@ -64,4 +65,6 @@ def planet_granite_scrape(starting_date, days):
 
 
 if __name__ == '__main__':
-    planet_granite_scrape(date.today(), days=30)
+    start_time = time.process_time()
+    planet_granite_scrape(date.today(), days=15)
+    print(f'Elapsed time: {time.process_time() - start_time:.2f}')
