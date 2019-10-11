@@ -5,9 +5,6 @@ from multiprocessing import Pool
 from bs4 import BeautifulSoup
 import requests
 
-# [TODO] refresh with lambda (1 mo every 15 days) https://github.com/mixu/markdown-styles-lambda https://github.com/mixu/ghost-render https://github.com/mixu/markdown-styles
-# [TODO] save log
-
 
 def download(url):
     page = requests.get(url)
@@ -40,7 +37,7 @@ def planet_granite_scrape(starting_date, days):
 
                 start = event.select_one('.tribe-event-date-start').string
                 end = event.select_one('.tribe-event-time').string if '@' in start else 'ALL DAY'
-                desc, start, end = map(lambda s: s.strip(), (desc, start, end))
+                desc, start, end = map(lambda s: s.replace('**', '').strip(), (desc, start, end))
                 title, *spec = (s.strip() for s in desc.split('–'))
                 specs = '-'.join(spec)
                 categories = [attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])]
@@ -48,7 +45,8 @@ def planet_granite_scrape(starting_date, days):
                 recurring = recurring.attrs['href'] if recurring else None
                 link = event.select_one('.summary a').attrs['href']
 
-                markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {desc:55s}{"" if recurring else "**"}]({link})\n')
+                bold = "" if recurring else "**"
+                markdown_out.write(f'1. [{bold}{start} -- {end} {desc}{bold}]({link})\n')
                 events[title.lower()].append((title, categories, start, end, specs, recurring, link))
 
         markdown_out.write(f'---\n*Last updated: {date.today()}*\n')
@@ -58,7 +56,9 @@ def planet_granite_scrape(starting_date, days):
 
             markdown_out.write(f'## {events[desc][0][0]} ({" ".join(events[desc][0][1])})\n')
             for title, categories, start, end, specs, recurring, link in events[desc]:
-                markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {specs}{"" if recurring else "**"}]({link})\n')
+                link_text = f'{start} -- {end} {specs}'
+                bold = "" if recurring else "**"
+                markdown_out.write(f'1. [{bold}{link_text.strip()}{bold}]({link})\n')
 
         markdown_out.write(f'---\n*Last updated: {date.today()}*\n')
 
