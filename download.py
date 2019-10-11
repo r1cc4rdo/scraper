@@ -51,11 +51,16 @@ def planet_granite_scrape(starting_date, days):
                 markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {desc:55s}{"" if recurring else "**"}]({link})\n')
                 events[title.lower()].append((title, categories, start, end, specs, recurring, link))
 
+        markdown_out.write(f'---\n*Last updated: {date.today()}*\n')
+
     with open('event_by_type.md', 'w') as markdown_out:
         for desc in sorted(events):
+
             markdown_out.write(f'## {events[desc][0][0]} ({" ".join(events[desc][0][1])})\n')
             for title, categories, start, end, specs, recurring, link in events[desc]:
                 markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {specs}{"" if recurring else "**"}]({link})\n')
+
+        markdown_out.write(f'---\n*Last updated: {date.today()}*\n')
 
 
 if __name__ == '__main__':
