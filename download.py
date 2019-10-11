@@ -7,6 +7,7 @@ import requests
 
 # [TODO] html/markdown output, write with dates
 # [TODO] refresh with lambda (1 mo every 15 days) https://github.com/mixu/markdown-styles-lambda https://github.com/mixu/ghost-render https://github.com/mixu/markdown-styles
+# [TODO] save log
 
 
 def download(url):
@@ -27,33 +28,35 @@ def planet_granite_scrape(starting_date, days):
 
     pages = Pool(16).map(download, calendar_urls(starting_date, days))
     events = defaultdict(list)
-    for page in pages:
+    with open('event_by_date.md', 'w') as markdown_out:
+        for page in pages:
 
-        page_parser = BeautifulSoup(page.content, 'html.parser')
-        for event in page_parser.select('.type-tribe_events'):
+            markdown_out.write(f'## {tuple(filter(lambda x: x, page.url.split("/")))[-1]}\n')
+            page_parser = BeautifulSoup(page.content, 'html.parser')
+            for event in page_parser.select('.type-tribe_events'):
 
-            desc = event.select_one('.tribe-events-list-event-title a').string
-            if 'cancelled' in desc.lower():
-                continue
+                desc = event.select_one('.tribe-events-list-event-title a').string
+                if 'cancelled' in desc.lower():
+                    continue
 
-            start = event.select_one('.tribe-event-date-start').string
-            end = event.select_one('.tribe-event-time').string if '@' in start else 'ALL DAY'
-            desc, start, end = map(lambda s: s.strip(), (desc, start, end))
-            categories = [attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])]
-            link = event.select_one('.event-is-recurring a')  # [TODO] lift link from summary
-            title, *spec = (s.strip() for s in desc.split('–'))
-            specs = '-'.join(spec)
+                start = event.select_one('.tribe-event-date-start').string
+                end = event.select_one('.tribe-event-time').string if '@' in start else 'ALL DAY'
+                desc, start, end = map(lambda s: s.strip(), (desc, start, end))
+                title, *spec = (s.strip() for s in desc.split('–'))
+                specs = '-'.join(spec)
+                categories = [attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])]
+                recurring = event.select_one('.event-is-recurring a')
+                recurring = recurring.attrs['href'] if recurring else None
+                link = event.select_one('.summary a').attrs['href']
 
-            print(f'{desc:55s} [{start:24} -- {end:8}]')
-            events[title.lower()].append((title, categories, start, end, specs, link))
+                markdown_out.write(f'1. [{start:24} -- {end:8} {desc:55s}]({link})\n')
+                events[title.lower()].append((title, categories, start, end, specs, recurring, link))
 
-        print()
-
-    for desc in sorted(events):
-        print(f'{events[desc][0][0]}')  # original title
-        for title, categories, start, end, specs, link in events[desc]:
-            print(f'\t {" " if link else "*"} {start:24} -- {end:8}   \t{specs}   \t[{" ".join(categories)}]   \t{link}')
-        print()
+    with open('event_by_type.md', 'w') as markdown_out:
+        for desc in sorted(events):
+            markdown_out.write(f'## {events[desc][0][0]}\n')  # original title
+            for title, categories, start, end, specs, recurring, link in events[desc]:
+                markdown_out.write(f'1. [{" " if recurring else "!"} {start:24} -- {end:8} {specs} {" ".join(categories)}]({link})\n')
 
 
 if __name__ == '__main__':
