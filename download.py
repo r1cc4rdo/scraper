@@ -40,7 +40,7 @@ def planet_granite_scrape(starting_date, days):
                 desc, start, end = map(lambda s: s.replace('**', '').strip(), (desc, start, end))
                 title, *spec = (s.strip() for s in desc.split('–'))
                 specs = '-'.join(spec)
-                categories = [attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])]
+                categories = sorted([attr.split('-')[-1] for attr in filter(lambda s: 'category' in s, event.attrs['class'])])
                 recurring = event.select_one('.event-is-recurring a')
                 recurring = recurring.attrs['href'] if recurring else None
                 link = event.select_one('.summary a').attrs['href']
@@ -52,7 +52,7 @@ def planet_granite_scrape(starting_date, days):
         markdown_out.write(f'---\n*Last updated: {date.today()}*\n')
 
     with open('event_by_type.md', 'w') as markdown_out:
-        for desc in sorted(events):
+        for desc in sorted(events, key=lambda d: ('events' not in events[d][0][1], events[d][0][1], events[d][0][0])):
 
             markdown_out.write(f'## {events[desc][0][0]} ({" ".join(events[desc][0][1])})\n')
             for title, categories, start, end, specs, recurring, link in events[desc]:
