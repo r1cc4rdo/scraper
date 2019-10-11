@@ -5,7 +5,6 @@ from multiprocessing import Pool
 from bs4 import BeautifulSoup
 import requests
 
-# [TODO] html/markdown output, write with dates
 # [TODO] refresh with lambda (1 mo every 15 days) https://github.com/mixu/markdown-styles-lambda https://github.com/mixu/ghost-render https://github.com/mixu/markdown-styles
 # [TODO] save log
 
@@ -49,14 +48,14 @@ def planet_granite_scrape(starting_date, days):
                 recurring = recurring.attrs['href'] if recurring else None
                 link = event.select_one('.summary a').attrs['href']
 
-                markdown_out.write(f'1. [{start:24} -- {end:8} {desc:55s}]({link})\n')
+                markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {desc:55s}{"" if recurring else "**"}]({link})\n')
                 events[title.lower()].append((title, categories, start, end, specs, recurring, link))
 
     with open('event_by_type.md', 'w') as markdown_out:
         for desc in sorted(events):
-            markdown_out.write(f'## {events[desc][0][0]}\n')  # original title
+            markdown_out.write(f'## {events[desc][0][0]} ({" ".join(events[desc][0][1])})\n')
             for title, categories, start, end, specs, recurring, link in events[desc]:
-                markdown_out.write(f'1. [{" " if recurring else "!"} {start:24} -- {end:8} {specs} {" ".join(categories)}]({link})\n')
+                markdown_out.write(f'1. [{"" if recurring else "**"}{start:24} -- {end:8} {specs}{"" if recurring else "**"}]({link})\n')
 
 
 if __name__ == '__main__':
