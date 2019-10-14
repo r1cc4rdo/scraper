@@ -69,11 +69,11 @@ def planet_granite_scrape(starting_date, days):
 
 def lambda_handler(event, context):
     repository = 'github.com/r1cc4rdo/scraper.git'
-    username, token = 'r1cc4rdo', '<<<personal access token id>>>'
+    username, token = 'r1cc4rdo', '<<<access token id>>>'
 
     exec('/tmp', f'git clone https://{repository}')
 
-    planet_granite_scrape(date.today(), days=15)
+    planet_granite_scrape(date.today(), 15)
 
     commands = ['export HOME=/tmp',
                 'git config --global user.name "PG Scraper Lambda"',
