@@ -183,4 +183,4 @@
 1. [Mon October 28 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Nicole | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/2019-10-28/)
 1. [Mon October 28 @ 8:30 pm -- 9:30 pm F10 Foundations – James | 60 min](https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/2019-10-28/)
 ---
-*Last updated: 2019-10-14*
+*Last updated: 2019-10-14 22:46:12.849655*
