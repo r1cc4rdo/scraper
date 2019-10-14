@@ -1,8 +1,6 @@
-import time
 from datetime import date, timedelta
 from collections import defaultdict
 from multiprocessing import Pool
-# from multiprocessing.pool import ThreadPool as Pool
 
 from bs4 import BeautifulSoup
 import requests
@@ -66,6 +64,4 @@ def planet_granite_scrape(starting_date, days):
 
 
 if __name__ == '__main__':
-    start_time = time.process_time()
     planet_granite_scrape(date.today(), days=15)
-    print(f'\nElapsed time: {time.process_time() - start_time:.2f}')
