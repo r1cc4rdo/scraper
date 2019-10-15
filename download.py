@@ -21,7 +21,11 @@ def calendar_urls(start_date, days):
 
 
 def planet_granite_scrape(starting_date, days):
-
+    """
+    [TODO] record count
+    [TODO] save as single json
+    [TODO] embed/read into html?! https://stackoverflow.com/questions/7346563/loading-local-json-file
+    """
     pages = Pool(16).map(download, calendar_urls(starting_date, days))
     events = defaultdict(list)
     with open('event_by_date.md', 'w') as markdown_out:
@@ -65,3 +69,4 @@ def planet_granite_scrape(starting_date, days):
 
 if __name__ == '__main__':
     planet_granite_scrape(date.today(), days=15)
+
