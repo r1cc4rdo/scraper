@@ -25,6 +25,9 @@ def planet_granite_scrape(start_date, days):
     [TODO] assert dates are the same, record day ot the week in a repeatable fashion
     [TODO] duration, assert same if there
     [TODO] reload at 00:01 (or 10pm + 2h ?!)
+
+    datetime.datetime.strptime('Mon Feb 15 2010', '%a %b %d %Y').strftime('%d/%m/%Y')
+    '15/02/2010'
     """
 
     print(''.join('_' if num % 10 else str(num // 10) for num in range(1, days + 1)))

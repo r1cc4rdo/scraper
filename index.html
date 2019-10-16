@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planet Granite Sunnyvale</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    $.getJSON("events.json", function(json)
+    {
+        $('#content').text(json)
+    });
+
+    </script>
+</head>
+<body>
+
+Hello world!
+
+<table id="content">
+    <tr>
+    <td>1</td>
+    <td>2</td>
+    </tr>
+    <tr>
+    <td>3</td>
+    <td>4</td>
+    </tr>
+</table>
+
+</body>
+</html>
