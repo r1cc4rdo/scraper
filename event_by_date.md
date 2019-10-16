@@ -1,19 +1,3 @@
-## 2019-10-15
-1. [Tue October 15 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-15/)
-1. [**Tue October 15 @ 6:30 am -- 7:30 am F10 Alpine – Stephanie (sub for Heather) | 60 min**](https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2018-11-06-2018-11-13-2019-01-29-2019-04-02-2019-10-15/)
-1. [Tue October 15 @ 6:30 am -- 7:30 am Vinyasa Flow – Mel | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-john-dennery-60-min-2017-12-12-2019-05-14/2019-10-15/)
-1. [**Tue October 15 @ 12:00 pm -- 1:00 pm F10 Foundations – James (sub for Hillary) | 60 min**](https://planetgranite.com/sv/event/f10-basics-suzie-60-min-2019-10-15/)
-1. [Tue October 15 @ 12:00 pm -- 1:00 pm Restorative – Jillian | 60 min](https://planetgranite.com/sv/event/yin-joanie-60-min-2018-05-22-2018-06-05-2019-05-07/2019-10-15/)
-1. [Tue October 15 @ 5:30 pm -- 6:15 pm Total Body Fitness – James | 45 min](https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2-2017-09-05/2019-10-15/)
-1. [Tue October 15 @ 6:00 pm -- 7:15 pm Vinyasa Flow – Ashley | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-ashley-75-min/2019-10-15/)
-1. [Tue October 15 @ 6:30 pm -- 7:30 pm F10 Fitness – Ruben | 60 min](https://planetgranite.com/sv/event/f10-fitness-hillary-60-min-2018-08-21-2019-04-02/2019-10-15/)
-1. [Tue October 15 @ 6:30 pm -- 9:30 pm Intro to Lead](https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/2019-10-15/)
-1. [Tue October 15 @ 7:00 pm -- 9:00 pm Beginner Rock Climbing (BRC)](https://planetgranite.com/sv/event/beginner-rock-climbing-2018-05-31/2019-10-15/)
-1. [Tue October 15 @ 7:00 pm -- 9:00 pm Womxn’s Community Night](https://planetgranite.com/sv/event/womens-community-night/2019-10-15/)
-1. [Tue October 15 @ 7:30 pm -- 8:30 pm Functional Movement and Mobility – Tinh | 60 min](https://planetgranite.com/sv/event/20-20-20-hillary-60-min-2018-07-03/2019-10-15/)
-1. [Tue October 15 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Eric | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/2019-10-15/)
-1. [Tue October 15 @ 8:00 pm -- 9:00 pm Leading with a GRIGRI](https://planetgranite.com/sv/event/leading-with-a-grigri/2019-10-15/)
-1. [Tue October 15 @ 8:30 pm -- 9:30 pm ABS & CORE – James | 60 MIN](https://planetgranite.com/sv/event/abs-core-james-60-min/2019-10-15/)
 ## 2019-10-16
 1. [Wed October 16 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-16/)
 1. [Wed October 16 @ 6:15 am -- 7:15 am Core Yoga– Doris | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/2019-10-16/)
@@ -183,5 +167,18 @@
 1. [Tue October 29 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Eric | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/2019-10-29/)
 1. [Tue October 29 @ 8:00 pm -- 9:00 pm Leading with a GRIGRI](https://planetgranite.com/sv/event/leading-with-a-grigri/2019-10-29/)
 1. [Tue October 29 @ 8:30 pm -- 9:30 pm ABS & CORE – James | 60 MIN](https://planetgranite.com/sv/event/abs-core-james-60-min/2019-10-29/)
+## 2019-10-30
+1. [Wed October 30 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-30/)
+1. [Wed October 30 @ 6:15 am -- 7:15 am Core Yoga– Doris | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/2019-10-30/)
+1. [Wed October 30 @ 6:30 am -- 7:30 am F10 Fitness – Martin | 60 min](https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/2019-10-30/)
+1. [Wed October 30 @ 9:00 am -- 10:00 am Core Yoga – Doris | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/2019-10-30/)
+1. [Wed October 30 @ 12:00 pm -- 1:00 pm Yin Vinyasa – Misako | 60 min](https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/2019-10-30/)
+1. [Wed October 30 @ 12:00 pm -- 12:45 pm Total Body Fitness – Mike | 45 min](https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/2019-10-30/)
+1. [Wed October 30 @ 5:30 pm -- 6:15 pm Abs & Core – Aaron | 45 min](https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/2019-10-30/)
+1. [Wed October 30 @ 6:00 pm -- 7:15 pm Slow Flow – Ashley | 75 min](https://planetgranite.com/sv/event/slow-flow-ashley-75-min/2019-10-30/)
+1. [Wed October 30 @ 6:30 pm -- 7:30 pm F10 Fitness – James | 60 min](https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/2019-10-30/)
+1. [Wed October 30 @ 7:30 pm -- 8:30 pm F10 Alpine – James | 60 min](https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/2019-10-30/)
+1. [Wed October 30 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Jennifer | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/2019-10-30/)
+1. [Wed October 30 @ 8:30 pm -- 9:30 pm F10 Foundations – James | 60 min](https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/2019-10-30/)
 ---
-*Last updated: 2019-10-15 23:13:29.801787*
+*Last updated: 2019-10-16*
