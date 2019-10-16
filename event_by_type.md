@@ -196,4 +196,4 @@
 1. [Sun October 20 @ 9:30 am -- 11:00 am Terri | 90 min](https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-10-20/)
 1. [Sun October 27 @ 9:30 am -- 11:00 am Terri | 90 min](https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-10-27/)
 ---
-*Last updated: 2019-10-16*
+*Last updated: 2019-10-16 23:13:27.801305*
