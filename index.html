@@ -7,27 +7,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
 
-    $.getJSON("events.json", function(json)
+    var json_events;
+    $.getJSON("events.json", function(json_payload)
     {
-        $('#content').text(json)
+        json_events = json_payload;
+    });
+
+    $(function()
+    {
+        $("#content").html("<tbody>");
+        json_events.forEach(function(pg_event)
+        {
+            $("#content").append("<tr><td>" + pg_event[1] + "</td><td>bubba</td></tr>");
+            <!-- Wed October 16 @ 6:00 pm &#45;&#45; 7:15 pm Slow Flow – Ashley | 75 min >> link
+            markdown_out.write(f'1. [{start} -- {end} {desc} {recurring !}]({link} tags)\n')
+            index title cancelled categories day start end specs recurring link group_index group_count-->
+        });
+        $("#content").append("</tbody>");
     });
 
     </script>
 </head>
 <body>
 
-Hello world!
+<h1 class="w3-panel w3-amber">Planet Granite Sunnyvale Events</h1>
+<div class="w3-panel">
 
-<table id="content">
-    <tr>
-    <td>1</td>
-    <td>2</td>
-    </tr>
-    <tr>
-    <td>3</td>
-    <td>4</td>
-    </tr>
-</table>
+    <table id="content" class="w3-table w3-striped w3-border">
+    </table>
+
+</div>
+
+<footer class="w3-panel w3-amber" style="text-align: center">
+    <p>Crafted with ❤ by <a href="https://github.com/r1cc4rdo">r1cc4rdo</a></p>
+</footer>
 
 </body>
 </html>
