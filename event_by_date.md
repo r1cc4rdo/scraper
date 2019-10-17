@@ -181,4 +181,4 @@
 1. [Wed October 30 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Jennifer | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/2019-10-30/)
 1. [Wed October 30 @ 8:30 pm -- 9:30 pm F10 Foundations – James | 60 min](https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/2019-10-30/)
 ---
-*Last updated: 2019-10-16*
+*Last updated: 2019-10-16 23:13:27.800791*
