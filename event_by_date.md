@@ -1,13 +1,3 @@
-## 2019-10-20
-1. [Sun October 20 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-20/)
-1. [Sun October 20 @ 9:00 am -- 10:00 am F10 Foundations – Hillary | 60 min](https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/2019-10-20/)
-1. [Sun October 20 @ 9:30 am -- 11:00 am Yoga Foundations – Terri | 90 min](https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-10-20/)
-1. [Sun October 20 @ 11:30 am -- 12:45 pm Vinyasa Flow – Jen T.  | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/2019-10-20/)
-1. [Sun October 20 @ 11:30 am -- 12:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-10-20/)
-1. [Sun October 20 @ 12:30 pm -- 1:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-10-20/)
-1. [Sun October 20 @ 1:30 pm -- 2:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-10-20/)
-1. [Sun October 20 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-10-20/)
-1. [**Sun October 20 @ 4:00 pm -- 5:15 pm Yin/Vinyasa – CANCELED**](https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28-2019-10-20/)
 ## 2019-10-21
 1. [Mon October 21 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-21/)
 1. [Mon October 21 @ 6:15 am -- 7:15 am Core Yoga – Doris | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/2019-10-21/)
@@ -178,5 +168,19 @@
 1. [Sun November 3 @ 1:30 pm -- 2:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/)
 1. [Sun November 3 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/)
 1. [Sun November 3 @ 4:00 pm -- 5:15 pm Yin/Vinyasa – Lorraine | 75 min](https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28/2019-11-03/)
+## 2019-11-04
+1. [Mon November 4 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-04/)
+1. [Mon November 4 @ 6:15 am -- 7:15 am Core Yoga – Doris | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/2019-11-04/)
+1. [Mon November 4 @ 6:30 am -- 7:30 am F10 Fitness – Martin | 60 min](https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/2019-11-04/)
+1. [Mon November 4 @ 9:00 am -- 10:00 am Vinyasa Flow – Lynn | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/2019-11-04/)
+1. [Mon November 4 @ 12:00 pm -- 1:00 pm Vinyasa Flow – Lorraine | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min/2019-11-04/)
+1. [Mon November 4 @ 12:00 pm -- 1:00 pm Total Body Fitness – Heather](https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18/2019-11-04/)
+1. [Mon November 4 @ 4:00 pm -- 6:00 pm Kids After School Club](https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-04/)
+1. [Mon November 4 @ 5:30 pm -- 6:15 pm Abs & Core – Melissa D | 45 min](https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/2019-11-04/)
+1. [Mon November 4 @ 6:30 pm -- 7:30 pm F10 Fitness – Aaron | 60 min](https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/2019-11-04/)
+1. [Mon November 4 @ 6:30 pm -- 9:30 pm Intro to Lead](https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/2019-11-04/)
+1. [Mon November 4 @ 7:30 pm -- 8:30 pm F10 Alpine – Aaron | 60 min](https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/2019-11-04/)
+1. [Mon November 4 @ 7:30 pm -- 8:45 pm Vinyasa Flow – Nicole | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/2019-11-04/)
+1. [Mon November 4 @ 8:30 pm -- 9:30 pm F10 Foundations – James | 60 min](https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/2019-11-04/)
 ---
-*Last updated: 2019-10-20 23:13:29.241248*
+*Last updated: 2019-10-21 23:13:28.594825*
