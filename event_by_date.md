@@ -1,14 +1,3 @@
-## 2019-10-25
-1. [Fri October 25 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-25/)
-1. [Fri October 25 @ 6:15 am -- 7:15 am Core Yoga – Doris  60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-10-25/)
-1. [Fri October 25 @ 6:30 am -- 7:30 am F10 Fitness – Martin | 60 min](https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/2019-10-25/)
-1. [Fri October 25 @ 12:00 pm -- 12:45 pm Abs & Core – Del | 45 min](https://planetgranite.com/sv/event/abs-core-aaron-45-min-2019-10-18/2019-10-25/)
-1. [Fri October 25 @ 12:00 pm -- 1:00 pm Yin – Lorraine | 60 min](https://planetgranite.com/sv/event/yin-lorraine-60-min/2019-10-25/)
-1. [Fri October 25 @ 5:30 pm -- 6:45 pm Vinyasa Flow – Nicole | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/2019-10-25/)
-1. [**Fri October 25 @ 6:30 pm -- 9:00 pm Parents’ Night Off HEADLAMP EDITION**](https://planetgranite.com/sv/event/parents-night-off-2017-07-14-2017-10-27/)
-1. [Fri October 25 @ 7:00 pm -- 8:15 pm Power – Doris | 75 min](https://planetgranite.com/sv/event/power-doris-75-min/2019-10-25/)
-1. [Fri October 25 @ 7:00 pm -- 10:00 pm Halloween Headlamp Climbing](https://planetgranite.com/sv/event/halloween-headlamp-climbing/2019-10-25/)
-1. [**Fri October 25 @ 8:30 pm -- 9:45 pm Acro Yoga – Zach and Nichole | 75 min**](https://planetgranite.com/sv/event/acro-yoga-zach-and-nichole-75-min/)
 ## 2019-10-26
 1. [Sat October 26 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-26/)
 1. [Sat October 26 @ 9:00 am -- 10:00 am F10 Oly – Matt | 60 min](https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/2019-10-26/)
@@ -179,5 +168,16 @@
 1. [Fri November 8 @ 6:00 pm -- 8:30 pm Parents’ Night Off](https://planetgranite.com/sv/event/parents-night-off-2017-07-14/2019-11-08/)
 1. [Fri November 8 @ 7:00 pm -- 8:15 pm Power – Doris | 75 min](https://planetgranite.com/sv/event/power-doris-75-min/2019-11-08/)
 1. [Fri November 8 @ 8:30 pm -- 9:45 pm Acro Yoga – Zach and Nichole | 75 min](https://planetgranite.com/sv/event/acro-yoga-zach-and-nichole-75-min-2019-11-08/2019-11-08/)
+## 2019-11-09
+1. [Sat November 9 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-09/)
+1. [Sat November 9 @ 9:00 am -- 10:00 am F10 Oly – Matt | 60 min](https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/2019-11-09/)
+1. [Sat November 9 @ 9:30 am -- 11:00 am Vinyasa Flow – Eric | 90 min](https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/2019-11-09/)
+1. [Sat November 9 @ 10:00 am -- 11:00 am F10 Alpine – Hillary | 60 min](https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/2019-11-09/)
+1. [Sat November 9 @ 11:30 am -- 12:45 pm Yin – Sandeep | 75 min](https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/2019-11-09/)
+1. [Sat November 9 @ 11:30 am -- 12:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/)
+1. [Sat November 9 @ 12:30 pm -- 1:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/)
+1. [Sat November 9 @ 1:30 pm -- 2:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/)
+1. [Sat November 9 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/)
+1. [Sat November 9 @ 4:00 pm -- 5:15 pm Vinyasa Flow – Linh *SUB HAYLEY* 75 min](https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/2019-11-09/)
 ---
-*Last updated: 2019-10-25 23:13:29.391891*
+*Last updated: 2019-10-26 23:13:31.473618*
