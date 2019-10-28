@@ -1,514 +1,3095 @@
 [
     [
-        0,
+        "title",
+        "instructor",
+        "substitutes",
+        "cancelled",
+        "dotw",
+        "day",
+        "month",
+        "year",
+        "hh",
+        "mm",
+        "duration_minutes",
+        "categories",
+        "recurring",
+        "link"
+    ],
+    [
         "Belay Lesson: Intro to Climbing",
+        "",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "00",
+        "00",
+        0,
         [
             "climbing"
         ],
-        "2019-10-16",
-        "Wed October 16",
-        "ALL DAY",
-        "",
         "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
-        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-16/",
-        0,
-        3
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-28/"
     ],
     [
-        1,
         "Core Yoga",
+        "Doris",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "06",
+        "15",
+        60,
         [
             "yoga"
         ],
-        "2019-10-16",
-        "Wed October 16 @ 6:15 am",
-        "7:15 am",
-        "Doris | 60 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/2019-10-16/",
-        0,
-        3
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/2019-10-28/"
     ],
     [
-        2,
         "F10 Fitness",
+        "Martin",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
         [
             "fitness"
         ],
-        "2019-10-16",
-        "Wed October 16 @ 6:30 am",
-        "7:30 am",
-        "Martin | 60 min",
-        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/all/",
-        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/2019-10-16/",
-        0,
-        4
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/2019-10-28/"
     ],
     [
-        3,
-        "Core Yoga",
+        "Vinyasa Flow",
+        "Lynn",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "09",
+        "00",
+        60,
         [
             "yoga"
         ],
-        "2019-10-16",
-        "Wed October 16 @ 9:00 am",
-        "10:00 am",
-        "Doris | 60 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/2019-10-16/",
-        1,
-        3
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/2019-10-28/"
     ],
     [
-        4,
-        "Yin Vinyasa",
+        "Vinyasa Flow",
+        "Lorraine",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
         [
             "yoga"
         ],
-        "2019-10-16",
-        "Wed October 16 @ 12:00 pm",
-        "1:00 pm",
-        "Misako | 60 min",
-        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/all/",
-        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/2019-10-16/",
-        0,
-        1
+        "https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min/2019-10-28/"
     ],
     [
-        5,
         "Total Body Fitness",
+        "Del",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
         [
             "fitness"
         ],
-        "2019-10-16",
-        "Wed October 16 @ 12:00 pm",
-        "12:45 pm",
-        "Mike | 45 min",
-        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/all/",
-        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/2019-10-16/",
-        0,
-        2
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/2019-10-28/"
     ],
     [
-        6,
         "Abs & Core",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 5:30 pm",
-        "6:15 pm",
-        "Aaron | 45 min",
-        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/all/",
-        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/2019-10-16/",
-        0,
-        3
-    ],
-    [
-        7,
-        "Slow Flow",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 6:00 pm",
-        "7:15 pm",
-        "Ashley | 75 min",
-        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/all/",
-        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/2019-10-16/",
-        0,
-        1
-    ],
-    [
-        8,
-        "F10 Fitness",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 6:30 pm",
-        "7:30 pm",
-        "James | 60 min",
-        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/all/",
-        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/2019-10-16/",
-        1,
-        4
-    ],
-    [
-        9,
-        "Balance and Technique",
-        false,
-        [
-            "climbing"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 7:00 pm",
-        "9:00 pm",
-        "Climbing",
-        "https://planetgranite.com/sv/event/balance-and-technique-climbing/all/",
-        "https://planetgranite.com/sv/event/balance-and-technique-climbing/2019-10-16/",
-        0,
-        1
-    ],
-    [
-        10,
-        "F10 Alpine",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 7:30 pm",
-        "8:30 pm",
-        "James | 60 min",
-        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/all/",
-        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/2019-10-16/",
-        0,
-        2
-    ],
-    [
-        11,
-        "Vinyasa Flow",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 7:30 pm",
-        "8:45 pm",
-        "Jennifer | 75 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/2019-10-16/",
-        0,
-        3
-    ],
-    [
-        12,
-        "F10 Foundations",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-16",
-        "Wed October 16 @ 8:30 pm",
-        "9:30 pm",
-        "James | 60 min",
-        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/all/",
-        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/2019-10-16/",
-        0,
-        2
-    ],
-    [
-        13,
-        "Belay Lesson: Intro to Climbing",
-        false,
-        [
-            "climbing"
-        ],
-        "2019-10-17",
-        "Thu October 17",
-        "ALL DAY",
+        "Melissa D",
         "",
-        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
-        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-17/",
-        1,
-        3
-    ],
-    [
-        14,
-        "F10 Alpine",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "17",
+        "30",
+        45,
         [
             "fitness"
         ],
-        "2019-10-17",
-        "Thu October 17 @ 6:30 am",
-        "7:30 am",
-        "Alejandro | 60 min",
-        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/all/",
-        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/2019-10-17/",
-        1,
-        2
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/2019-10-28/"
     ],
     [
-        15,
-        "Vinyasa Flow",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 6:30 am",
-        "7:30 am",
-        "Nicole | 60 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/2019-10-17/",
-        1,
-        3
-    ],
-    [
-        16,
-        "F10 Foundations",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 12:00 pm",
-        "1:00 pm",
-        "James (sub for Hillary) | 60 min",
-        null,
-        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28-2019-10-17/",
-        1,
-        2
-    ],
-    [
-        17,
-        "Power",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 12:00 pm",
-        "1:00 pm",
-        "Fiona | 60 min",
-        "https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24/all/",
-        "https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24/2019-10-17/",
-        0,
-        2
-    ],
-    [
-        18,
-        "Mindfulness Meditation Class",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 5:00 pm",
-        "5:45 pm",
-        "Tim | 45 min",
-        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/all/",
-        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/2019-10-17/",
-        0,
-        1
-    ],
-    [
-        19,
-        "Total Body Fitness",
-        false,
-        [
-            "fitness"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 5:30 pm",
-        "6:15 pm",
-        "Aaron | 45 min",
-        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/all/",
-        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/2019-10-17/",
-        1,
-        2
-    ],
-    [
-        20,
-        "Foundations",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 6:00 pm",
-        "7:15 pm",
-        "Ashley | 75 min",
-        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/all/",
-        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/2019-10-17/",
-        0,
-        1
-    ],
-    [
-        21,
         "F10 Fitness",
+        "Aaron",
+        "",
         false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "18",
+        "30",
+        60,
         [
             "fitness"
         ],
-        "2019-10-17",
-        "Thu October 17 @ 6:30 pm",
-        "7:30 pm",
-        "James (sub for Hillary) | 60 min",
-        null,
-        "https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04-2019-10-17/",
-        2,
-        4
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/2019-10-28/"
     ],
     [
-        22,
+        "F10 Alpine",
+        "Aaron",
+        "",
+        false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/2019-10-28/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/2019-10-28/"
+    ],
+    [
+        "F10 Foundations",
+        "James",
+        "",
+        false,
+        "Mon",
+        "28",
+        "October",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/2019-10-28/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-29/"
+    ],
+    [
+        "F10 Alpine",
+        "Heather",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2018-11-06-2018-11-13-2019-01-29-2019-04-02/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2018-11-06-2018-11-13-2019-01-29-2019-04-02/2019-10-29/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Mel",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-dennery-60-min-2017-12-12-2019-05-14/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-dennery-60-min-2017-12-12-2019-05-14/2019-10-29/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-suzie-60-min/all/",
+        "https://planetgranite.com/sv/event/f10-basics-suzie-60-min/2019-10-29/"
+    ],
+    [
+        "Restorative",
+        "Jillian",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yin-joanie-60-min-2018-05-22-2018-06-05-2019-05-07/all/",
+        "https://planetgranite.com/sv/event/yin-joanie-60-min-2018-05-22-2018-06-05-2019-05-07/2019-10-29/"
+    ],
+    [
+        "Total Body Fitness",
+        "James",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2-2017-09-05/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2-2017-09-05/2019-10-29/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Ashley",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-ashley-75-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-ashley-75-min/2019-10-29/"
+    ],
+    [
+        "F10 Fitness",
+        "Ruben",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-hillary-60-min-2018-08-21-2019-04-02/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-hillary-60-min-2018-08-21-2019-04-02/2019-10-29/"
+    ],
+    [
+        "Intro to Lead",
+        "",
+        "",
+        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "18",
+        "30",
+        180,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/all/",
+        "https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/2019-10-29/"
+    ],
+    [
         "Functional Movement and Mobility",
+        "Tinh",
+        "",
         false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "19",
+        "30",
+        60,
         [
             "fitness"
         ],
-        "2019-10-17",
-        "Thu October 17 @ 7:30 pm",
-        "8:30 pm",
-        "James (sub for Heather) | 60 min",
-        null,
-        "https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04-2019-10-17/",
-        0,
-        1
+        "https://planetgranite.com/sv/event/20-20-20-hillary-60-min-2018-07-03/all/",
+        "https://planetgranite.com/sv/event/20-20-20-hillary-60-min-2018-07-03/2019-10-29/"
     ],
     [
-        23,
-        "Power Yoga",
+        "Vinyasa Flow",
+        "Eric",
+        "",
         false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "19",
+        "30",
+        75,
         [
             "yoga"
         ],
-        "2019-10-17",
-        "Thu October 17 @ 7:30 pm",
-        "8:45 pm",
-        "Terri *SUB TIANTIAN* 75 min",
-        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/all/",
-        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/2019-10-17/",
-        0,
-        1
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/2019-10-29/"
     ],
     [
-        24,
-        "Abs & Core",
+        "Leading with a GRIGRI",
+        "",
+        "",
         false,
-        [
-            "fitness"
-        ],
-        "2019-10-17",
-        "Thu October 17 @ 8:30 pm",
-        "9:15 pm",
-        "James (sub for Heather) | 45 min",
-        null,
-        "https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02-2019-10-17/",
-        1,
-        3
-    ],
-    [
-        25,
-        "Belay Lesson: Intro to Climbing",
-        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "20",
+        "00",
+        60,
         [
             "climbing"
         ],
-        "2019-10-18",
-        "Fri October 18",
-        "ALL DAY",
+        "https://planetgranite.com/sv/event/leading-with-a-grigri/all/",
+        "https://planetgranite.com/sv/event/leading-with-a-grigri/2019-10-29/"
+    ],
+    [
+        "ABS & CORE",
+        "James",
         "",
-        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
-        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-18/",
-        2,
-        3
-    ],
-    [
-        26,
-        "Core Yoga",
         false,
-        [
-            "yoga"
-        ],
-        "2019-10-18",
-        "Fri October 18 @ 6:15 am",
-        "7:15 am",
-        "Doris  60 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-10-18/",
-        2,
-        3
-    ],
-    [
-        27,
-        "F10 Fitness",
-        false,
+        "Tue",
+        "29",
+        "October",
+        "2019",
+        "20",
+        "30",
+        60,
         [
             "fitness"
         ],
-        "2019-10-18",
-        "Fri October 18 @ 6:30 am",
-        "7:30 am",
-        "Martin | 60 min",
-        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/all/",
-        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/2019-10-18/",
-        3,
-        4
+        "https://planetgranite.com/sv/event/abs-core-james-60-min/all/",
+        "https://planetgranite.com/sv/event/abs-core-james-60-min/2019-10-29/"
     ],
     [
-        28,
-        "Abs & Core",
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
         false,
-        [
-            "fitness"
-        ],
-        "2019-10-18",
-        "Fri October 18 @ 12:00 pm",
-        "12:45 pm",
-        "Aaron | 45 min",
-        "https://planetgranite.com/sv/event/abs-core-aaron-45-min/all/",
-        "https://planetgranite.com/sv/event/abs-core-aaron-45-min/2019-10-18/",
-        2,
-        3
-    ],
-    [
-        29,
-        "Yin",
-        false,
-        [
-            "yoga"
-        ],
-        "2019-10-18",
-        "Fri October 18 @ 12:00 pm",
-        "1:00 pm",
-        "Lorraine | 60 min",
-        "https://planetgranite.com/sv/event/yin-lorraine-60-min/all/",
-        "https://planetgranite.com/sv/event/yin-lorraine-60-min/2019-10-18/",
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "00",
+        "00",
         0,
-        1
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-30/"
     ],
     [
-        30,
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/2019-10-30/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/2019-10-30/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/2019-10-30/"
+    ],
+    [
+        "Yin Vinyasa",
+        "Misako",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/all/",
+        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/2019-10-30/"
+    ],
+    [
+        "Total Body Fitness",
+        "Mike",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "12",
+        "00",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/2019-10-30/"
+    ],
+    [
+        "Abs & Core",
+        "Aaron",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/all/",
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/2019-10-30/"
+    ],
+    [
+        "Slow Flow",
+        "Ashley",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/all/",
+        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/2019-10-30/"
+    ],
+    [
+        "F10 Fitness",
+        "James",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/2019-10-30/"
+    ],
+    [
+        "F10 Alpine",
+        "James",
+        "",
+        false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/all/",
+        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/2019-10-30/"
+    ],
+    [
         "Vinyasa Flow",
+        "Jennifer",
+        "",
         false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "19",
+        "30",
+        75,
         [
             "yoga"
         ],
-        "2019-10-18",
-        "Fri October 18 @ 5:30 pm",
-        "6:45 pm",
-        "Nicole | 75 min",
-        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/all/",
-        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/2019-10-18/",
-        2,
-        3
+        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/2019-10-30/"
     ],
     [
-        31,
-        "Power",
+        "F10 Foundations",
+        "James",
+        "",
         false,
+        "Wed",
+        "30",
+        "October",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/all/",
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/2019-10-30/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-31/"
+    ],
+    [
+        "F10 Alpine",
+        "Alejandro",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/2019-10-31/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "06",
+        "30",
+        60,
         [
             "yoga"
         ],
-        "2019-10-18",
-        "Fri October 18 @ 7:00 pm",
-        "8:15 pm",
-        "Doris | 75 min",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/2019-10-31/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28/all/",
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28/2019-10-31/"
+    ],
+    [
+        "Power",
+        "Fiona",
+        "LYNN",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        null,
+        "https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24-2019-10-31/"
+    ],
+    [
+        "Mindfulness Meditation Class",
+        "Tim",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "17",
+        "00",
+        45,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/all/",
+        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/2019-10-31/"
+    ],
+    [
+        "Total Body Fitness",
+        "Aaron",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/all/",
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/2019-10-31/"
+    ],
+    [
+        "Foundations",
+        "Ashley",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/all/",
+        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/2019-10-31/"
+    ],
+    [
+        "F10 Fitness",
+        "Hillary",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04/2019-10-31/"
+    ],
+    [
+        "Functional Movement and Mobility",
+        "Heather",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/2019-10-31/"
+    ],
+    [
+        "Power Yoga",
+        "Terri",
+        "TIANTIAN",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/all/",
+        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/2019-10-31/"
+    ],
+    [
+        "Abs & Core",
+        "Heather",
+        "",
+        false,
+        "Thu",
+        "31",
+        "October",
+        "2019",
+        "20",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/2019-10-31/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-01/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-11-01/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/2019-11-01/"
+    ],
+    [
+        "Abs & Core",
+        "Del",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "12",
+        "00",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2019-10-18/all/",
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2019-10-18/2019-11-01/"
+    ],
+    [
+        "Yin",
+        "Lorraine",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yin-lorraine-60-min/all/",
+        "https://planetgranite.com/sv/event/yin-lorraine-60-min/2019-11-01/"
+    ],
+    [
+        "Member Guest Night",
+        "",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "17",
+        "00",
+        360,
+        [
+            "climbing",
+            "events"
+        ],
+        "https://planetgranite.com/sv/event/member-guest-night/all/",
+        "https://planetgranite.com/sv/event/member-guest-night/2019-11-01/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "17",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/2019-11-01/"
+    ],
+    [
+        "Power",
+        "Doris",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "19",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
         "https://planetgranite.com/sv/event/power-doris-75-min/all/",
-        "https://planetgranite.com/sv/event/power-doris-75-min/2019-10-18/",
-        1,
-        2
+        "https://planetgranite.com/sv/event/power-doris-75-min/2019-11-01/"
+    ],
+    [
+        "Partner Yoga",
+        "Doris",
+        "",
+        false,
+        "Fri",
+        "01",
+        "November",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/partner-yoga-doris-60-min-2019-06-07/all/",
+        "https://planetgranite.com/sv/event/partner-yoga-doris-60-min-2019-06-07/2019-11-01/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-02/"
+    ],
+    [
+        "F10 Oly",
+        "Matt",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/all/",
+        "https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/2019-11-02/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Eric",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "09",
+        "30",
+        90,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/2019-11-02/"
+    ],
+    [
+        "F10 Alpine",
+        "Hillary",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "10",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/all/",
+        "https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/2019-11-02/"
+    ],
+    [
+        "Yin",
+        "Sandeep",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "11",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/all/",
+        "https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/2019-11-02/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "11",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "12",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "13",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "14",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Linh",
+        "HAYLEY",
+        false,
+        "Sat",
+        "02",
+        "November",
+        "2019",
+        "16",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/2019-11-02/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-03/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/all/",
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/2019-11-03/"
+    ],
+    [
+        "Yoga Foundations",
+        "Terri",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "09",
+        "30",
+        90,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/all/",
+        "https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-11-03/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Jen T.",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "11",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/2019-11-03/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "11",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "12",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "13",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "14",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-03/"
+    ],
+    [
+        "Yin/Vinyasa",
+        "Lorraine",
+        "",
+        false,
+        "Sun",
+        "03",
+        "November",
+        "2019",
+        "16",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28/all/",
+        "https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28/2019-11-03/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-04/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/2019-11-04/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/2019-11-04/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Lynn",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/2019-11-04/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Lorraine",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min/2019-11-04/"
+    ],
+    [
+        "Total Body Fitness",
+        "Del",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/2019-11-04/"
+    ],
+    [
+        "Kids After School Club",
+        "",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "16",
+        "00",
+        120,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/all/",
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-04/"
+    ],
+    [
+        "Abs & Core",
+        "Melissa D",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/2019-11-04/"
+    ],
+    [
+        "F10 Fitness",
+        "Aaron",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/2019-11-04/"
+    ],
+    [
+        "Intro to Lead",
+        "",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "18",
+        "30",
+        180,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/all/",
+        "https://planetgranite.com/sv/event/intro-to-lead-2-2018-06-26/2019-11-04/"
+    ],
+    [
+        "F10 Alpine",
+        "Aaron",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/2019-11-04/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/2019-11-04/"
+    ],
+    [
+        "F10 Foundations",
+        "James",
+        "",
+        false,
+        "Mon",
+        "04",
+        "November",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/2019-11-04/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-05/"
+    ],
+    [
+        "F10 Alpine",
+        "Heather",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2018-11-06-2018-11-13-2019-01-29-2019-04-02/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2018-11-06-2018-11-13-2019-01-29-2019-04-02/2019-11-05/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Mel",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-dennery-60-min-2017-12-12-2019-05-14/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-dennery-60-min-2017-12-12-2019-05-14/2019-11-05/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-suzie-60-min/all/",
+        "https://planetgranite.com/sv/event/f10-basics-suzie-60-min/2019-11-05/"
+    ],
+    [
+        "Restorative",
+        "Jillian",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yin-joanie-60-min-2018-05-22-2018-06-05-2019-05-07/all/",
+        "https://planetgranite.com/sv/event/yin-joanie-60-min-2018-05-22-2018-06-05-2019-05-07/2019-11-05/"
+    ],
+    [
+        "Kids After School Club",
+        "",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "16",
+        "00",
+        120,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/all/",
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-05/"
+    ],
+    [
+        "Total Body Fitness",
+        "James",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2-2017-09-05/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2-2017-09-05/2019-11-05/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Ashley",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-ashley-75-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-ashley-75-min/2019-11-05/"
+    ],
+    [
+        "F10 Fitness",
+        "Ruben",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-hillary-60-min-2018-08-21-2019-04-02/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-hillary-60-min-2018-08-21-2019-04-02/2019-11-05/"
+    ],
+    [
+        "Functional Movement and Mobility",
+        "Tinh",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/20-20-20-hillary-60-min-2018-07-03/all/",
+        "https://planetgranite.com/sv/event/20-20-20-hillary-60-min-2018-07-03/2019-11-05/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Eric",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-75-min/2019-11-05/"
+    ],
+    [
+        "Leading with a GRIGRI",
+        "",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "20",
+        "00",
+        60,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/leading-with-a-grigri/all/",
+        "https://planetgranite.com/sv/event/leading-with-a-grigri/2019-11-05/"
+    ],
+    [
+        "ABS & CORE",
+        "James",
+        "",
+        false,
+        "Tue",
+        "05",
+        "November",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-james-60-min/all/",
+        "https://planetgranite.com/sv/event/abs-core-james-60-min/2019-11-05/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-06/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2-2018-05-30/2019-11-06/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2-2019-04-03/2019-11-06/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-john-60min-2019-04-24-2019-10-16/2019-11-06/"
+    ],
+    [
+        "Yin Vinyasa",
+        "Misako",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/all/",
+        "https://planetgranite.com/sv/event/foundations-misako-60-min-2018-01-17/2019-11-06/"
+    ],
+    [
+        "Total Body Fitness",
+        "Mike",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "12",
+        "00",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-45-min-2019-02-20/2019-11-06/"
+    ],
+    [
+        "Kids After School Club",
+        "",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "16",
+        "00",
+        120,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/all/",
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-06/"
+    ],
+    [
+        "Abs & Core",
+        "Aaron",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/all/",
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2/2019-11-06/"
+    ],
+    [
+        "Slow Flow",
+        "Ashley",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/all/",
+        "https://planetgranite.com/sv/event/slow-flow-ashley-75-min/2019-11-06/"
+    ],
+    [
+        "F10 Fitness",
+        "James",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/2019-11-06/"
+    ],
+    [
+        "F10 Alpine",
+        "James",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/all/",
+        "https://planetgranite.com/sv/event/f10-alpine-zeus-60-min-2017-09-06-2018-06-20-2018-09-26-2018-12-05-2018-12-12-2019-03-20/2019-11-06/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Jennifer",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-jillian-75-min-2019-05-22/2019-11-06/"
+    ],
+    [
+        "F10 Foundations",
+        "James",
+        "",
+        false,
+        "Wed",
+        "06",
+        "November",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/all/",
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2017-09-06-2018-06-27-2018-09-05/2019-11-06/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-07/"
+    ],
+    [
+        "F10 Alpine",
+        "Alejandro",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/2019-11-07/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/2019-11-07/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28/all/",
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28/2019-11-07/"
+    ],
+    [
+        "Power",
+        "Fiona",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24/all/",
+        "https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24/2019-11-07/"
+    ],
+    [
+        "Kids After School Club",
+        "",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "16",
+        "00",
+        120,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/all/",
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-07/"
+    ],
+    [
+        "Mindfulness Meditation Class",
+        "Tim",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "17",
+        "00",
+        45,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/all/",
+        "https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/2019-11-07/"
+    ],
+    [
+        "Total Body Fitness",
+        "Aaron",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/all/",
+        "https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/2019-11-07/"
+    ],
+    [
+        "Foundations",
+        "Ashley",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "18",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/all/",
+        "https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/2019-11-07/"
+    ],
+    [
+        "F10 Fitness",
+        "Hillary",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04/2019-11-07/"
+    ],
+    [
+        "Functional Movement and Mobility",
+        "Heather",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/all/",
+        "https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/2019-11-07/"
+    ],
+    [
+        "Power Yoga",
+        "Terri",
+        "TIANTIAN",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/all/",
+        "https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/2019-11-07/"
+    ],
+    [
+        "Abs & Core",
+        "Heather",
+        "",
+        false,
+        "Thu",
+        "07",
+        "November",
+        "2019",
+        "20",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/2019-11-07/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-08/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-11-08/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/2019-11-08/"
+    ],
+    [
+        "ABS & CORE",
+        "CLASS CANCELLED",
+        "",
+        true,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "12",
+        "00",
+        45,
+        [
+            "fitness"
+        ],
+        null,
+        "https://planetgranite.com/sv/event/abs-core-aaron-45-min-2019-11-08/"
+    ],
+    [
+        "Yin",
+        "Lorraine",
+        "CONNIE",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        null,
+        "https://planetgranite.com/sv/event/yin-lorraine-60-min-2019-11-08/"
+    ],
+    [
+        "Kids After School Club",
+        "",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "16",
+        "00",
+        120,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/all/",
+        "https://planetgranite.com/sv/event/kids-after-school-club-2/2019-11-08/"
+    ],
+    [
+        "Teachers\u2019 Night",
+        "",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "17",
+        "00",
+        360,
+        [
+            "events"
+        ],
+        "https://planetgranite.com/sv/event/teachers-night/all/",
+        "https://planetgranite.com/sv/event/teachers-night/2019-11-08/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "17",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/2019-11-08/"
+    ],
+    [
+        "Parents\u2019 Night Off",
+        "",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "18",
+        "00",
+        150,
+        [
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/parents-night-off-2017-07-14/all/",
+        "https://planetgranite.com/sv/event/parents-night-off-2017-07-14/2019-11-08/"
+    ],
+    [
+        "Power",
+        "Doris",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "19",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/power-doris-75-min/all/",
+        "https://planetgranite.com/sv/event/power-doris-75-min/2019-11-08/"
+    ],
+    [
+        "Acro Yoga",
+        "Zach and Nichole",
+        "",
+        false,
+        "Fri",
+        "08",
+        "November",
+        "2019",
+        "20",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/acro-yoga-zach-and-nichole-75-min-2019-11-08/all/",
+        "https://planetgranite.com/sv/event/acro-yoga-zach-and-nichole-75-min-2019-11-08/2019-11-08/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-09/"
+    ],
+    [
+        "F10 Oly",
+        "Matt",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/all/",
+        "https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/2019-11-09/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Eric",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "09",
+        "30",
+        90,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/2019-11-09/"
+    ],
+    [
+        "F10 Alpine",
+        "Hillary",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "10",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/all/",
+        "https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/2019-11-09/"
+    ],
+    [
+        "Yin",
+        "Sandeep",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "11",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/all/",
+        "https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/2019-11-09/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "11",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "12",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "13",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "14",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-09/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Linh",
+        "HAYLEY",
+        false,
+        "Sat",
+        "09",
+        "November",
+        "2019",
+        "16",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/2019-11-09/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-10/"
+    ],
+    [
+        "F10 Foundations",
+        "Hillary",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/all/",
+        "https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/2019-11-10/"
+    ],
+    [
+        "Yoga Foundations",
+        "Terri",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "09",
+        "30",
+        90,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/all/",
+        "https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-11-10/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Jen T.",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "11",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/2019-11-10/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "11",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-10/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "12",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-10/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "13",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-10/"
+    ],
+    [
+        "Drop-In Climbing Session",
+        "",
+        "",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "14",
+        "30",
+        60,
+        [
+            "climbing",
+            "kids"
+        ],
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/all/",
+        "https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-10/"
+    ],
+    [
+        "Yin/Vinyasa",
+        "Lorraine",
+        "LINDA",
+        false,
+        "Sun",
+        "10",
+        "November",
+        "2019",
+        "16",
+        "00",
+        75,
+        [
+            "yoga"
+        ],
+        null,
+        "https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28-2019-11-10/"
+    ],
+    [
+        "Belay Lesson: Intro to Climbing",
+        "",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "00",
+        "00",
+        0,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/all/",
+        "https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-11/"
+    ],
+    [
+        "Core Yoga",
+        "Doris",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "06",
+        "15",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-2018-06-04/2019-11-11/"
+    ],
+    [
+        "F10 Fitness",
+        "Martin",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "06",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-martin-60-min-2019-04-01/2019-11-11/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Lynn",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "09",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-doris-60min-2018-01-08-2018-05-28-2019-09-16/2019-11-11/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Lorraine",
+        "CONNIE",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "yoga"
+        ],
+        null,
+        "https://planetgranite.com/sv/event/vinyasa-flow-lorraine-60-min-2019-11-11/"
+    ],
+    [
+        "Total Body Fitness",
+        "Del",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "12",
+        "00",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-hillary-2019-02-18-2019-10-28/2019-11-11/"
+    ],
+    [
+        "Abs & Core",
+        "Melissa D",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "17",
+        "30",
+        45,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/abs-core-melissa-d-45-min-2017-09-11/2019-11-11/"
+    ],
+    [
+        "F10 Fitness",
+        "Aaron",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "18",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2017-09-11-2019-04-01/2019-11-11/"
+    ],
+    [
+        "Balance and Technique",
+        "Bouldering",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "19",
+        "00",
+        120,
+        [
+            "climbing"
+        ],
+        "https://planetgranite.com/sv/event/balance-and-technique-bouldering/all/",
+        "https://planetgranite.com/sv/event/balance-and-technique-bouldering/2019-11-11/"
+    ],
+    [
+        "F10 Alpine",
+        "Aaron",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "19",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/all/",
+        "https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-2-2017-09-11-2018-12-03/2019-11-11/"
+    ],
+    [
+        "Vinyasa Flow",
+        "Nicole",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "19",
+        "30",
+        75,
+        [
+            "yoga"
+        ],
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/all/",
+        "https://planetgranite.com/sv/event/vinyasa-flow-joanie-75-min-2018-01-22-2018-11-19-2019-02-04-2019-02-18/2019-11-11/"
+    ],
+    [
+        "F10 Foundations",
+        "James",
+        "",
+        false,
+        "Mon",
+        "11",
+        "November",
+        "2019",
+        "20",
+        "30",
+        60,
+        [
+            "fitness"
+        ],
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/all/",
+        "https://planetgranite.com/sv/event/total-body-fitness-zeus-45-min-2017-09-11/2019-11-11/"
     ]
 ]

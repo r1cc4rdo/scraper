@@ -6,7 +6,7 @@ import re
 from bs4 import BeautifulSoup
 import requests
 
-desc_parser = re.compile(r'(?:(.+?) – (.+?) \| (\d+) (?i:min))|(?:(.+?) – (.+))|(.+)')
+desc_parser = re.compile(r'(?:(.+?)–(.+?) (?:\| )*(\d+) (?i:min))|(?:(.+?)–(.+))|(.+)')
 
 
 def download(url):
@@ -43,6 +43,7 @@ def parse_description(desc):
     if sub_index != -1:
         instructor, substitutes = instructor[:sub_index], instructor[sub_index+5:]
 
+    title, instructor, substitutes = map(lambda s: s.strip(), (title, instructor, substitutes))
     return title, instructor, substitutes, int(duration)
 
 
@@ -66,7 +67,7 @@ def planet_granite_scrape(start_date, days):
             desc, start_time_string = map(lambda s: ' '.join(event_html.select_one(s).string.split()), ids)
 
             title, instructor, substitutes, duration_from_desc = parse_description(desc)
-            cancelled = 'cancelled' in title.lower()
+            cancelled = 'cancelled' in desc.lower()
 
             if '@' in start_time_string:
 
@@ -79,7 +80,7 @@ def planet_granite_scrape(start_date, days):
 
                 dotw_month_day = start_time_string.strip()
                 midnight = datetime.combine(event_date, datetime.min.time())
-                start_time, end_time = midnight, midnight + timedelta(hours=24)
+                start_time, end_time = midnight, midnight
 
             duration_minutes = int((end_time - start_time).total_seconds()) // 60
 

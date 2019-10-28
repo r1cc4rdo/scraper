@@ -15,21 +15,56 @@
 
 var event_template = Handlebars.compile($("#event-template").html());
 
-function update_content(group_by)
+function group_events(key_function)
 {
-    var event_groups = {};
+    var groups = {};
     json_events.forEach(function(pg_event)
     {
-        var group_key = pg_event[group_by];
-        if (group_key in event_groups)
+        var group_key = key_function(pg_event);
+        if (group_key in groups)
         {
-            event_groups[group_key].push(pg_event);
+            groups[group_key].push(pg_event);
         }
         else
         {
-            event_groups[group_key] = [pg_event];
+            groups[group_key] = [pg_event];
         }
     });
+    return groups;
+}
+
+function update_content(group_by)
+{
+    var event_groups = {};
+    switch(group_by)
+    {
+    case 'event':
+
+        event_groups = group_events(function(e){ return e['title'] });
+        break;
+
+    case 'date':
+
+        event_groups = group_events(function(e){ return e['dotw'] + ', ' + e['month'] + ' ' + e['day'] });
+        break;
+
+    default: // category
+
+        json_events.forEach(function(pg_event)
+        {
+            pg_event['categories'].forEach(function(category)
+            {
+                if (category in event_groups)
+                {
+                    event_groups[category].push(pg_event);
+                }
+                else
+                {
+                    event_groups[category] = [pg_event];
+                }
+            });
+        });
+    }
 
     html_content = "";
     for(var group_key in event_groups) // {{#each object}} {{@key}}: {{this}} {{/each}}
@@ -45,8 +80,7 @@ function setup_ui()
 
     $("#group-by").selectmenu({change: function(event, ui)
     {
-        var group_by = ui.item.label == "Date" ? "date" : ui.item.label == "Event" ? "title" : "title";
-        update_content(group_by);
+        update_content(ui.item.label.toLowerCase());
     }});
 
     $("#hours_range").slider({range: true, min: 0, max: 24, step: 1, values: [0, 24], slide: function(event, ui)
@@ -70,7 +104,7 @@ $.getJSON("events.json").then(function(json_payload)
         keys.forEach((key, i) => event_dict[key] = values[i]);
         json_events.push(event_dict);
     });
-    update_content("title");
+    update_content("date");
 });
 
 $(function()
