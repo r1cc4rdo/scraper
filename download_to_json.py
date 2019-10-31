@@ -47,17 +47,17 @@ def parse_description(desc):
     return title, instructor, substitutes, int(duration)
 
 
-def planet_granite_scrape(start_date, days):
+def planet_granite_scrape(start_date, days, debug=False):
 
     print(''.join('_' if num % 10 else str(num // 10) for num in range(1, days + 1)))
     print(''.join(str(num % 10) for num in range(1, days + 1)))
 
     base_url = 'https://planetgranite.com/sv/calendar/{}/'
     dates = [start_date + timedelta(days=after) for after in range(days)]
-    pages = Pool(16).map(download, (base_url.format(day.strftime("%Y-%m-%d")) for day in dates))
+    map_function = map if debug else Pool(16).map  # cannot debug multi-process
+    pages = map_function(download, (base_url.format(day.strftime("%Y-%m-%d")) for day in dates))
 
-    events = ['title instructor substitutes cancelled dotw day month year '
-              'hh mm duration_minutes categories recurring link'.split()]
+    events = ['title instructor substitutes cancelled start_epoch end_epoch categories recurring link'.split()]
     for event_date, page in zip(dates, pages):
 
         page_parser = BeautifulSoup(page.content, 'html.parser')
@@ -83,6 +83,7 @@ def planet_granite_scrape(start_date, days):
                 start_time, end_time = midnight, midnight
 
             duration_minutes = int((end_time - start_time).total_seconds()) // 60
+            start_epoch, end_epoch = map(lambda dt: int(dt.timestamp()), (start_time, end_time))
 
             category_classes = filter(lambda s: 'category' in s, event_html.attrs['class'])
             categories = sorted([attr.split('-')[-1] for attr in category_classes])
@@ -91,16 +92,19 @@ def planet_granite_scrape(start_date, days):
             recurring = recurring.attrs['href'] if recurring else None
             link = event_html.select_one('.summary a').attrs['href']
 
+            common_prefix = 'https://planetgranite.com/sv/event/'
+            assert (not link) or link.startswith(common_prefix)
+            assert (not recurring) or recurring.startswith(common_prefix)
+            recurring, link = map(lambda s: s[len(common_prefix):] if s else False, (recurring, link))
+
             assert event_date.strftime('%a %B %-d') == dotw_month_day
             assert (duration_from_desc == 0) or (duration_from_desc == duration_minutes)
 
-            dotw, year, month, day, hh, mm = start_time.strftime('%a %Y %B %d %H %M').split()
             events.append((title, instructor, substitutes, cancelled,
-                           dotw, day, month, year, hh, mm, duration_minutes,
-                           categories, recurring, link))
+                           start_epoch, end_epoch, categories, recurring, link))
 
     with open('events.json', 'w') as json_file_out:
-        json.dump(events, json_file_out, indent=4)
+        json.dump(events, json_file_out, indent=4 if debug else None, separators=None if debug else (',', ':'))
 
 
 if __name__ == '__main__':

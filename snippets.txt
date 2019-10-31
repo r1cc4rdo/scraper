@@ -9,10 +9,4 @@
 
 {{#each object}} {{@key}}: {{this}} {{/each}}
 
-
-    """
-    [TODO] record count
-    [TODO] save as single json
-    [TODO] embed/read into html?! https://stackoverflow.com/questions/7346563/loading-local-json-file
-    [TODO] reload at 00:01 (or 10pm + 2h ?!)
-    """
+[TODO] reload at 00:01 (or 10pm + 2h ?!)

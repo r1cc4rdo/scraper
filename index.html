@@ -15,16 +15,20 @@
 
     <script id="event-template" type="text/x-handlebars-template">
 
-        <div class='w3-card w3-round'>
-        <h3 class='w3-panel w3-round w3-pink'>{{section}} ({{events.[0].categories}})</h3>
-        <table class='w3-table w3-bordered w3-hoverable'>
+        <div class="w3-card w3-round event-group">
+        <h3 class="w3-panel w3-round w3-pink">{{section}} {{#if show_tags}}({{events.[0].categories}}){{/if}}</h3>
+        <table class="w3-table w3-bordered w3-hoverable">
         {{#each events}}
             <tr>
-                <td width="25%" class="w3-right-align">{{dotw}}, {{month}} {{day}}</td>
-                <td width="8%">{{#if duration_minutes}}{{hh}}:{{mm}}{{/if}}</td>
+                <td width="25%" class="w3-right-align">{{date_string}}</td>
+                <td width="8%">{{#if duration_minutes}}{{time_string}}{{/if}}</td>
                 <td width="3%">{{#if duration_minutes}}{{duration_minutes}}{{/if}}</td>
                 <td width="3%" class="w3-right-align">{{#unless recurring}}<i class='fa fa-exclamation w3-text-red'></i>{{/unless}}</td>
-                <td><a href="{{this.link}}">{{#if cancelled}}<s>{{/if}}{{title}}{{#if cancelled}}</s>{{/if}}</a></td>
+                <td class="event-title">
+                    <a href="{{this.link}}" target="_blank">
+                        {{#if cancelled}}<s>{{/if}}{{title}}{{#if cancelled}}</s>{{/if}}
+                    </a>
+                </td>
                 <td width="25%">{{instructor}}</td>
             </tr>
         {{/each}}
@@ -37,41 +41,57 @@
 </head>
 <body>
 
-<div class="w3-container w3-amber">
+<div class="w3-top">
+    <div class="w3-bar w3-amber">
 
-    <h2>Planet Granite Sunnyvale Events</h2>
-    <form>
+        <a href="https://planetgranite.com/sv/" class="w3-bar-item w3-button w3-blue-grey w3-border">
+            <b>Planet Granite Sunnyvale</b>
+        </a>
 
-        <fieldset>
-            <label for="group-by">Group by:</label>
-            <select class="w3-select" id="group-by">
-                <option>Date</option>
-                <option>Event</option>
-                <option>Category</option>
-            </select>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-border-blue-grey w3-border-right" id="group_by">Group by</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button group_filter">Date</a>
+                <a href="#" class="w3-bar-item w3-button group_filter">Event</a>
+                <a href="#" class="w3-bar-item w3-button group_filter">Category</a>
+            </div>
+        </div>
 
-            <label for="checkbox-sun">S</label><input type="checkbox" class="w3-check day-filter" id="checkbox-sun">
-            <label for="checkbox-mon">M</label><input type="checkbox" class="w3-check day-filter" id="checkbox-mon">
-            <label for="checkbox-tue">T</label><input type="checkbox" class="w3-check day-filter" id="checkbox-tue">
-            <label for="checkbox-wed">W</label><input type="checkbox" class="w3-check day-filter" id="checkbox-wed">
-            <label for="checkbox-thu">T</label><input type="checkbox" class="w3-check day-filter" id="checkbox-thu">
-            <label for="checkbox-fri">F</label><input type="checkbox" class="w3-check day-filter" id="checkbox-fri">
-            <label for="checkbox-sat">S</label><input type="checkbox" class="w3-check day-filter" id="checkbox-sat">
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Nov 13 <i class="fa fa-angle-double-right"></i> Nov 28</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-padding-large" style="width:50%">
+                <span>day1</span><div id="days_range" style="display: inline-block; width: 50%"></div><span>day2</span>
+            </div>
+        </div>
+        <button class="w3-button w3-bar-item w3-border-blue-grey w3-border-right">
+            <i id="reset_date_filter" class="fa fa-undo w3-large"></i>
+        </button>
 
-            <label for="hours_range">Hours:</label><div id="hours_range"></div>
-            <label for="hours_label">H: <input type="text" id="hours_label" readonly></label>
-            <label for="days_range">Days:</label><div id="days_range"></div>
-            <label for="days_label">D: <input type="text" id="days_label" readonly></label>
-        </fieldset>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Anytime</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-padding-large" style="width:50%">
+                <span>h1</span><div id="hours_range"></div><span>h2</span>
+            </div>
+        </div>
+        <button class="w3-button w3-bar-item">
+            <i id="reset_time_filter" class="fa fa-close w3-large"></i>
+        </button>
 
-    </form>
+        <div class="w3-right">
+            <input type="text" class="w3-bar-item w3-input w3-border" id="search_box" placeholder="Search...">
+            <button class="w3-button w3-bar-item">
+                <i id="search_icon" class="fa fa-search w3-large"></i>
+            </button>
+        </div>
 
-<!--input: search by typing-->
-<!--multi dropdown: tags https://github.com/yairEO/tagify or https://selectize.github.io/selectize.js/ or semantic UI-->
-
+    </div>
 </div>
 
-<div class="w3-container">
+<div class="w3-bar">
+    <a href="#" class="w3-bar-item">Placeholder</a>
+</div>
+
+<div class="w3-container w3-content">
     <div id="content">
         <div class="w3-center w3-padding-64 w3-margin-top">
             <i class="fa fa-refresh w3-spin w3-text-blue w3-jumbo"></i>
