@@ -20,6 +20,8 @@ function group_events(key_function)
 
 function update_content(group_by)
 {
+    // sort
+
     var event_groups = {};
     switch(group_by)
     {
@@ -90,6 +92,7 @@ function setup_ui()
         $("#search_box").val("");
         filter_text("");
     });
+    $("#search_box").val(new URL(window.location.href).searchParams.get("search"));
 
     $(".group_filter").click((e) =>
     {
@@ -97,14 +100,42 @@ function setup_ui()
         filter_text($("#search_box").val());
     });
 
-    $("#hours_range").slider({range: true, min: 0, max: 24, step: 1, values: [0, 24], slide: function(event, ui)
+    $("#reset_time_filter").hide();
+    $("#reset_time_filter").click(() =>
     {
-        $("#hours_label").val(ui.values[0] + " - " + ui.values[1]);
+         $("#time_range").slider("values", [0, 24]);
+         $("#reset_time_filter").hide();
+
+         $("#time_label").html("Anytime");  // is this necessary or should i listen to updates?
+         // also need to update labels
+    });
+    $("#time_range").slider({range: true, min: 0, max: 24, step: 1, values: [0, 24], slide: function(event, ui)
+    {
+        start_time = (ui.values[0] <= 9 ? "0" : "") + ui.values[0] + ":00";
+        $("#time_start").text(start_time);
+
+        end_time = (ui.values[1] <= 9 ? "0" : "") + ui.values[1] + ":00";
+        $("#time_end").text(end_time);
+
+        if (JSON.stringify(ui.values) == "[0,24]")
+        {
+            $("#time_label").html("Anytime");
+            $("#reset_time_filter").hide();
+        }
+        else
+        {
+            $("#time_label").html(start_time + " <i class=\"fa fa-angle-double-right\"></i> " + end_time);
+            $("#reset_time_filter").show();
+        }
+        // update filter and button visibility
     }});
 
-    $("#days_range").slider({range: true, min: 0, max: 15, step: 1, values: [0, 15], slide: function(event, ui)
+    $("#reset_date_filter").hide();
+    $("#date_range").slider({range: true, min: 0, max: 15, step: 1, values: [0, 15], slide: function(event, ui)
     {
-        $("#days_label").val(ui.values[0] + " - " + ui.values[1]);
+        $(".time_start").text("Mon " + ui.values[0]);
+        $(".time_end").text("Mon " + ui.values[1]);
+        // update filter and button visibility
     }});
 }
 
@@ -132,6 +163,7 @@ $.getJSON("events.json").then(function(json_payload)
         json_events.push(event_dict);
     });
     update_content("date");
+    if ($("#search_box").val()) filter_text($("#search_box").val()); // [TODO] do not accept parameters in filter, or get default from seaarch box
 });
 
 $(function()
