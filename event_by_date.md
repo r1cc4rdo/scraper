@@ -1,17 +1,3 @@
-## 2019-10-31
-1. [Thu October 31 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-10-31/)
-1. [Thu October 31 @ 6:30 am -- 7:30 am F10 Alpine – Alejandro | 60 min](https://planetgranite.com/sv/event/f10-fitness-frank-60-min-2-2018-11-01-2019-04-04/2019-10-31/)
-1. [Thu October 31 @ 6:30 am -- 7:30 am Vinyasa Flow – Nicole | 60 min](https://planetgranite.com/sv/event/vinyasa-flow-joshua-60-min-2017-11-02-2018-06-28-2018-07-05-2018-07-12-2019-08-15/2019-10-31/)
-1. [Thu October 31 @ 12:00 pm -- 1:00 pm F10 Foundations – Hillary | 60 min](https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2-2018-11-29-2019-02-14-2019-03-28/2019-10-31/)
-1. [**Thu October 31 @ 12:00 pm -- 1:00 pm Power – Fiona *SUB LYNN* 60 min**](https://planetgranite.com/sv/event/power-sarah-60-min-2018-09-27-2018-11-29-2019-01-24-2019-10-31/)
-1. [Thu October 31 @ 5:00 pm -- 5:45 pm Mindfulness Meditation Class – Tim | 45 min](https://planetgranite.com/sv/event/mindfulness-meditation-class-tim-45-min-2018-11-01-2019-02-07/2019-10-31/)
-1. [Thu October 31 @ 5:30 pm -- 6:15 pm Total Body Fitness – Aaron | 45 min](https://planetgranite.com/sv/event/abs-core-zeus-45-min-2-2017-09-07/2019-10-31/)
-1. [Thu October 31 @ 6:00 pm -- 7:15 pm Foundations – Ashley | 75 min](https://planetgranite.com/sv/event/foundations-eva-75-min-2017-10-12/2019-10-31/)
-1. [Thu October 31 @ 6:30 pm -- 7:30 pm F10 Fitness – Hillary | 60 min](https://planetgranite.com/sv/event/f10-fitness-suzie-60-min-2017-09-07-2018-03-29-2019-04-04/2019-10-31/)
-1. [Thu October 31 @ 6:30 pm -- 7:30 pm F10 Fitness – James | 60 min](https://planetgranite.com/sv/event/f10-fitness-zeus-60-min-4-2017-09-06-2018-06-20-2018-11-14-2019-02-06-2019-04-03-2019-07-03/2019-10-31/)
-1. [Thu October 31 @ 7:30 pm -- 8:30 pm Functional Movement and Mobility – Heather | 60 min](https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/2019-10-31/)
-1. [Thu October 31 @ 7:30 pm -- 8:45 pm Power Yoga – Terri *SUB TIANTIAN* 75 min](https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/2019-10-31/)
-1. [Thu October 31 @ 8:30 pm -- 9:15 pm Abs & Core – Heather | 45 min](https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/2019-10-31/)
 ## 2019-11-01
 1. [Fri November 1 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-01/)
 1. [Fri November 1 @ 6:15 am -- 7:15 am Core Yoga – Doris  60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-11-01/)
@@ -190,5 +176,14 @@
 1. [Thu November 14 @ 7:30 pm -- 8:30 pm Functional Movement and Mobility – Heather | 60 min](https://planetgranite.com/sv/event/20-20-20-suzie-60-min-2018-03-29-2019-01-31-2019-04-04/2019-11-14/)
 1. [Thu November 14 @ 7:30 pm -- 8:45 pm Power Yoga – Terri *SUB TIANTIAN* 75 min](https://planetgranite.com/sv/event/power-yoga-wayne-75-min-2017-08-24-2019-09-19/2019-11-14/)
 1. [Thu November 14 @ 8:30 pm -- 9:15 pm Abs & Core – Heather | 45 min](https://planetgranite.com/sv/event/total-body-fitness-aaron-45-min-2-2017-09-07-2018-06-21-2018-08-02/2019-11-14/)
+## 2019-11-15
+1. [Fri November 15 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-15/)
+1. [Fri November 15 @ 6:15 am -- 7:15 am Core Yoga – Doris  60 min](https://planetgranite.com/sv/event/vinyasa-flow-doris-60-min-3-2018-06-01/2019-11-15/)
+1. [Fri November 15 @ 6:30 am -- 7:30 am F10 Fitness – Martin | 60 min](https://planetgranite.com/sv/event/f10-fitness-martin-60-min-3-2019-04-05/2019-11-15/)
+1. [Fri November 15 @ 12:00 pm -- 12:45 pm Abs & Core – Del | 45 min](https://planetgranite.com/sv/event/abs-core-aaron-45-min-2019-10-18/2019-11-15/)
+1. [Fri November 15 @ 12:00 pm -- 1:00 pm Yin – Lorraine | 60 min](https://planetgranite.com/sv/event/yin-lorraine-60-min/2019-11-15/)
+1. [Fri November 15 @ 5:30 pm -- 6:45 pm Vinyasa Flow – Nicole | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-myles-75-min-2018-07-13-2019-02-22/2019-11-15/)
+1. [Fri November 15 @ 7:00 pm -- 8:15 pm Power – Doris | 75 min](https://planetgranite.com/sv/event/power-doris-75-min/2019-11-15/)
+1. [Fri November 15 @ 7:00 pm -- 9:00 pm Bouldering Fundamentals](https://planetgranite.com/sv/event/bouldering-fundamentals-2/2019-11-15/)
 ---
-*Last updated: 2019-10-31 23:13:28.794317*
+*Last updated: 2019-11-01 23:13:29.993947*
