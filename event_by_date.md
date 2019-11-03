@@ -1,14 +1,3 @@
-## 2019-11-02
-1. [Sat November 2 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-02/)
-1. [Sat November 2 @ 9:00 am -- 10:00 am F10 Advanced](https://planetgranite.com/sv/event/f10-advanced/2019-11-02/)
-1. [Sat November 2 @ 9:30 am -- 11:00 am Vinyasa Flow – Eric | 90 min](https://planetgranite.com/sv/event/vinyasa-flow-eric-90-min-2017-04-22/2019-11-02/)
-1. [Sat November 2 @ 10:00 am -- 11:00 am F10 Alpine – Hillary | 60 min](https://planetgranite.com/sv/event/f10-alpine-hillary-60-min-2018-12-08-2019-02-02-2019-07-27-2019-08-17/2019-11-02/)
-1. [Sat November 2 @ 11:30 am -- 12:45 pm Yin – Sandeep | 75 min](https://planetgranite.com/sv/event/yin-misako-75-min-2017-12-02/2019-11-02/)
-1. [Sat November 2 @ 11:30 am -- 12:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/)
-1. [Sat November 2 @ 12:30 pm -- 1:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/)
-1. [Sat November 2 @ 1:30 pm -- 2:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/)
-1. [Sat November 2 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-02/)
-1. [Sat November 2 @ 4:00 pm -- 5:15 pm Vinyasa Flow – Linh *SUB HAYLEY* 75 min](https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/2019-11-02/)
 ## 2019-11-03
 1. [Sun November 3 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-03/)
 1. [Sun November 3 @ 9:00 am -- 10:00 am F10 Foundations – Hillary | 60 min](https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/2019-11-03/)
@@ -186,5 +175,15 @@
 1. [Sat November 16 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-16/)
 1. [Sat November 16 @ 4:00 pm -- 5:15 pm Vinyasa Flow – Linh *SUB HAYLEY* 75 min](https://planetgranite.com/sv/event/vinyasa-flow-linh-75-min-2019-08-31/2019-11-16/)
 1. [Sat November 16 @ 6:30 pm -- 7:30 pm F10 Oly – Matt | 60 min](https://planetgranite.com/sv/event/f10-strength-hillary-60-min-2017-09-02-2019-04-06/2019-11-16/)
+## 2019-11-17
+1. [Sun November 17 -- ALL DAY Belay Lesson: Intro to Climbing](https://planetgranite.com/sv/event/belay-lesson-intro-to-climbing-3/2019-11-17/)
+1. [Sun November 17 @ 9:00 am -- 10:00 am F10 Foundations – Hillary | 60 min](https://planetgranite.com/sv/event/f10-basics-hillary-60-min-2017-09-03-2019-02-24/2019-11-17/)
+1. [Sun November 17 @ 9:30 am -- 11:00 am Yoga Foundations – Terri | 90 min](https://planetgranite.com/sv/event/yoga-foundations-terri-90-min-2017-09-03-2017-12-31/2019-11-17/)
+1. [Sun November 17 @ 11:30 am -- 12:45 pm Vinyasa Flow – Jen T.  | 75 min](https://planetgranite.com/sv/event/vinyasa-flow-sandeep-75-min-2017-12-03/2019-11-17/)
+1. [Sun November 17 @ 11:30 am -- 12:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-17/)
+1. [Sun November 17 @ 12:30 pm -- 1:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-17/)
+1. [Sun November 17 @ 1:30 pm -- 2:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-17/)
+1. [Sun November 17 @ 2:30 pm -- 3:30 pm Drop-In Climbing Session](https://planetgranite.com/sv/event/drop-in-climbing-session/2019-11-17/)
+1. [Sun November 17 @ 4:00 pm -- 5:15 pm Yin/Vinyasa – Lorraine | 75 min](https://planetgranite.com/sv/event/yinvinyasa-lorraine-75-min-2019-07-28/2019-11-17/)
 ---
-*Last updated: 2019-11-02 23:13:30.818613*
+*Last updated: 2019-11-03 23:13:31.698617*
