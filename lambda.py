@@ -1,3 +1,5 @@
+# [TODO] reload at 00:01 (or 10pm + 2h ?!)
+
 import subprocess
 from datetime import date, timedelta
 from collections import defaultdict
