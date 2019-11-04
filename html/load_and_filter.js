@@ -82,6 +82,6 @@ $.getJSON("events.json").then((json_payload) =>
     json_events = build_event_db(json_payload); // the json events can span a variable number of days, so need to adjust UI range
     days_range = Math.ceil((json_events[json_events.length - 1]["end_epoch"] - json_events[0]["start_epoch"]) / 86400)
     $("#date_range").slider({range: true, min: 0, max: days_range - 1, step: 1, values: [0, days_range - 1]});
-    update_content("date");
+    update_content("Date");
 });
 

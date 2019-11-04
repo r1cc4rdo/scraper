@@ -60,6 +60,7 @@ function search_bar_setup()
     $("#search_icon").parent().click(() => $("#search_box").val("").change()); // search clear button
     $("#search_box").val(new URL(window.location.href).searchParams.get("search")); // populate with url request
     $(document).keydown(() => $("#search_box").focus()); // transfer focus to search bar on keypress
+    $("#search_box").focus(); // initial focus
 }
 
 $(function() // configure UI elements, register callbacks
