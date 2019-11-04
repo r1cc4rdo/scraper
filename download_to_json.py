@@ -1,5 +1,5 @@
 from datetime import date, datetime, timedelta
-from multiprocessing import Pool
+from multiprocessing.pool import ThreadPool as Pool  # not "from multiprocessing import Pool" because AWS Lambda
 import json
 import re
 
@@ -54,7 +54,7 @@ def planet_granite_scrape(start_date, days, debug=False):
 
     base_url = 'https://planetgranite.com/sv/calendar/{}/'
     dates = [start_date + timedelta(days=after) for after in range(days)]
-    map_function = map if debug else Pool(16).map  # cannot debug multi-process
+    map_function = map if debug else Pool(processes=16).map  # cannot debug multi-process
     pages = map_function(download, (base_url.format(day.strftime("%Y-%m-%d")) for day in dates))
 
     events = ['title instructor substitutes cancelled start_epoch end_epoch categories recurring link'.split()]
