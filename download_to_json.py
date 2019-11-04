@@ -103,7 +103,7 @@ def planet_granite_scrape(start_date, days, debug=False):
             events.append((title, instructor, substitutes, cancelled,
                            start_epoch, end_epoch, categories, recurring, link))
 
-    with open('events.json', 'w') as json_file_out:
+    with open('html/events.json', 'w') as json_file_out:
         json.dump(events, json_file_out, indent=4 if debug else None, separators=None if debug else (',', ':'))
 
 

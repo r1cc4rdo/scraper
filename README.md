@@ -1,12 +1,6 @@
-## Planet Granite SV events
+## Planet Granite Sunnyvale events scraper
 
-* [by date](https://github.com/r1cc4rdo/scraper/blob/master/event_by_date.md)
-* [by type](https://github.com/r1cc4rdo/scraper/blob/master/event_by_type.md)
-
-## Steps for creating a Lambda function
-
-* Create the function on console
-* Add git layer (to enable git commands)
-* On Amazon Linux and same python version, pip install package into a directory
-* Add a lambda_function.py stub inside
-* Zip and upload
+This project:
+* scrapes daily [Planet Granite website](https://planetgranite.com/sv/) for events,
+* with a scheduled [AWS Lambda](https://aws.amazon.com/lambda/) function and
+* publishes it to a [slick web page](https://github.com/r1cc4rdo/scraper/blob/master/html/index.html).
