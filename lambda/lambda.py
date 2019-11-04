@@ -10,8 +10,8 @@ def execute(cwd, cmdline):
 
 def lambda_handler(event, context):
 
-    repository = 'github.com/r1cc4rdo/scraper.git'
     username, token = 'r1cc4rdo', '<<<access token id>>>'
+    repository = f'github.com/{username}/scraper.git'
 
     print(execute('/tmp', f'git clone https://{repository}'))
 
