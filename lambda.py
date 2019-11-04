@@ -1,4 +1,5 @@
 # [TODO] reload at 00:01 (or 10pm + 2h ?!)
+# [TODO] sort by event
 
 import subprocess
 from datetime import date, timedelta

@@ -6,11 +6,11 @@
     <title>Planet Granite Sunnyvale</title>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.min.js"></script>
 
     <script id="event-template" type="text/x-handlebars-template">
@@ -24,7 +24,7 @@
                 <td width="8%">{{#if duration_minutes}}{{time_string}}{{/if}}</td>
                 <td width="3%">{{#if duration_minutes}}{{duration_minutes}}{{/if}}</td>
                 <td width="3%" class="w3-right-align">{{#unless recurring}}<i class='fa fa-exclamation w3-text-red'></i>{{/unless}}</td>
-                <td class="event-title">
+                <td>
                     <a href="{{this.link}}" target="_blank">
                         {{#if cancelled}}<s>{{/if}}{{title}}{{#if cancelled}}</s>{{/if}}
                     </a>
@@ -36,6 +36,7 @@
         </div>
 
     </script>
+    <script src="ui_setup.js"></script>
     <script src="load_and_filter.js"></script>
 
 </head>
@@ -49,39 +50,39 @@
         </a>
 
         <div class="w3-dropdown-hover">
-            <button class="w3-button" id="group_by">Group by</button>
+            <button class="w3-button" id="group_by_dropdown">Group by</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a href="#" class="w3-bar-item w3-button group_filter">Date</a>
-                <a href="#" class="w3-bar-item w3-button group_filter">Event</a>
-                <a href="#" class="w3-bar-item w3-button group_filter">Category</a>
+                <a href="#" class="w3-bar-item w3-button group_by_item">Date</a>
+                <a href="#" class="w3-bar-item w3-button group_by_item">Event</a>
+                <a href="#" class="w3-bar-item w3-button group_by_item">Category</a>
             </div>
         </div>
 
        <div class="w3-dropdown-hover">
             <button class="w3-button w3-border-blue-grey w3-border-left">
-                <span class="date_start">Mon XX</span>
+                <span class="date_start_label">Jan 01</span>
                 <i class="fa fa-angle-double-right"></i>
-                <span class="date_end">Mon XX</span>
+                <span class="date_end_label">Dec 31</span>
             </button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-padding-large" style="width:50%">
-                <span class="date_start" style="display: inline-block; width: 15%">Mon XX</span>
+                <span class="date_start_label" style="display: inline-block; width: 15%">Jan 01</span>
                 <div id="date_range" class="" style="display: inline-block; width: 68%"></div>
-                <span class="date_end w3-right-align" style="display: inline-block; width: 15%">Mon XX</span>
+                <span class="date_end_label w3-right-align" style="display: inline-block; width: 15%">Dec 31</span>
             </div>
         </div>
-        <button id="reset_date_filter" class="w3-button w3-bar-item">
+        <button id="date_reset_filter" class="w3-button w3-bar-item">
             <i class="fa fa-undo w3-large"></i>
         </button>
 
         <div class="w3-dropdown-hover">
-            <button id="time_label" class="w3-button w3-border-blue-grey w3-border-left">Anytime</button>
+            <button id="time_dropdown" class="w3-button w3-border-blue-grey w3-border-left">Anytime</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-padding-large" style="width:50%">
                 <span id="time_start" style="display: inline-block; width: 12%">00:00</span>
                 <div id="time_range" class="" style="display: inline-block; width: 74%"></div>
                 <span id="time_end" class="w3-right-align" style="display: inline-block; width: 12%">23:00</span>
             </div>
         </div>
-        <button id="reset_time_filter" class="w3-button w3-bar-item">
+        <button id="time_reset_filter" class="w3-button w3-bar-item">
             <i class="fa fa-undo w3-large"></i>
         </button>
 
