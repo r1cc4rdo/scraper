@@ -1,6 +1,7 @@
 from datetime import date, datetime, timedelta
 from multiprocessing.pool import ThreadPool as Pool  # not "from multiprocessing import Pool" because AWS Lambda
 import json
+import pytz
 import re
 
 from bs4 import BeautifulSoup
@@ -47,7 +48,7 @@ def parse_description(desc):
     return title, instructor, substitutes, int(duration)
 
 
-def planet_granite_scrape(start_date, days, debug=False):
+def planet_granite_scrape(start_date, days, destination, debug=False):
 
     print(''.join('_' if num % 10 else str(num // 10) for num in range(1, days + 1)))
     print(''.join(str(num % 10) for num in range(1, days + 1)))
@@ -82,8 +83,9 @@ def planet_granite_scrape(start_date, days, debug=False):
                 midnight = datetime.combine(event_date, datetime.min.time())
                 start_time, end_time = midnight, midnight
 
+            tz = pytz.timezone('America/Los_Angeles')
             duration_minutes = int((end_time - start_time).total_seconds()) // 60
-            start_epoch, end_epoch = map(lambda dt: int(dt.timestamp()), (start_time, end_time))
+            start_epoch, end_epoch = map(lambda dt: int(tz.localize(dt).timestamp()), (start_time, end_time))
 
             category_classes = filter(lambda s: 'category' in s, event_html.attrs['class'])
             categories = sorted([attr.split('-')[-1] for attr in category_classes])
@@ -103,9 +105,9 @@ def planet_granite_scrape(start_date, days, debug=False):
             events.append((title, instructor, substitutes, cancelled,
                            start_epoch, end_epoch, categories, recurring, link))
 
-    with open('html/events.json', 'w') as json_file_out:
+    with open(destination, 'w') as json_file_out:
         json.dump(events, json_file_out, indent=4 if debug else None, separators=None if debug else (',', ':'))
 
 
 if __name__ == '__main__':
-    planet_granite_scrape(date.today(), days=15)
+    planet_granite_scrape(date.today(), days=15, destination='events.json')
