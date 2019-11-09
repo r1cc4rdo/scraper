@@ -45,7 +45,7 @@ function update_content(group_by) // re-group items based on criteria
         html_content += event_template({section: group_key, show_tags: group_by == "event", events: event_groups[group_key]});
     }
     $("#content").html(html_content);
-    $("#group_by_dropdown").html("Group by: " + group_by);
+    $("#group_by_dropdown").html("Sort by: " + group_by);
 
     apply_filters();
 }
@@ -82,6 +82,7 @@ $.getJSON("events.json").then((json_payload) =>
     json_events = build_event_db(json_payload); // the json events can span a variable number of days, so need to adjust UI range
     days_range = Math.ceil((json_events[json_events.length - 1]["end_epoch"] - json_events[0]["start_epoch"]) / 86400)
     $("#date_range").slider({range: true, min: 0, max: days_range - 1, step: 1, values: [0, days_range - 1]});
+    $("#search_box").val(new URL(window.location.href).searchParams.get("search")).trigger("input"); // populate with url request
     update_content("Date");
 });
 

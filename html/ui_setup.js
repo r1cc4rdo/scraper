@@ -51,14 +51,13 @@ function time_range_filter_setup()
 
 function search_bar_setup()
 {
-    $("#search_box").bind("keyup change", () =>  // search while typing
+    $("#search_box").bind("keyup input change paste", () =>  // search while typing
     {
         var icon_class = $("#search_box").val().length == 0 ? "fa-search" : "fa-close";
         $("#search_icon").attr("class", "w3-large fa " + icon_class);
         apply_filters();
     });
     $("#search_icon").parent().click(() => $("#search_box").val("").change()); // search clear button
-    $("#search_box").val(new URL(window.location.href).searchParams.get("search")); // populate with url request
     $(document).keydown(() => $("#search_box").focus()); // transfer focus to search bar on keypress
     $("#search_box").focus(); // initial focus
 }
