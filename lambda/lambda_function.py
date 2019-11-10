@@ -13,7 +13,7 @@ def execute(cwd, cmdline):
 def lambda_handler(event, context):
 
     url, repository = 'github.com/planetgranite', 'planetgranite.github.io'
-    username, token = 'planetgranite', 'f78625eb7d6af25d2d3ee30b1e4da54959a75cc9'
+    username, token = 'planetgranite', '<<developer_access_token>>'
 
     execute('/tmp', f'git clone https://{url}/{repository}.git')
     planet_granite_scrape(date.today(), days=15, destination=f'/tmp/{repository}/events.json')
