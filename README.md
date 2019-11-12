@@ -3,7 +3,7 @@
 This project:
 * scrapes daily [Planet Granite website](https://planetgranite.com/sv/) for events,
 * with a scheduled [AWS Lambda](https://aws.amazon.com/lambda/) function and
-* publishes it to a [slick web page](https://planetgranite.github.io/).
+* publishes it to a [slick web page](https://planetgranite.github.io/) (also: [repo](https://github.com/planetgranite/planetgranite.github.io/)).
 
 ### Potential TODO items
 
@@ -14,3 +14,6 @@ Page load could be made faster by:
 * compress json data
     * semantically: by recording event classes only once, and storing only start time and duration for each instance
     * literally: by using some form of compression (zip, gzip)
+* remove whitespace from css, jscript, html
+* remove unused css directives, jscript code [link](https://codeburst.io/capturing-unused-application-code-2b7594a9fe06)
+* shrink font awesome web font [link](https://blog.webjeda.com/optimize-fontawesome/)
